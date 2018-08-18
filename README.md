@@ -1,2 +1,2 @@
 # Xamarin_browser
-This is a simple browser used to navigate using webview controler in xamarin.forms.
+A simple browser app using webview controler in xamarin.forms.
