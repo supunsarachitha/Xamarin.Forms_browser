@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App12"
+             x:Class="App12.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        
+        <Entry x:Name="SearchBar" Grid.Row="0"/>
+        <Button x:Name="SearchButton" Grid.Row="1" Text="Search" Clicked="SearchButton_Clicked"/>
+        <WebView Grid.Row="2" x:Name="Browser" Navigated="Browser_Navigated"/> 
+    </Grid>
+
+</ContentPage>
