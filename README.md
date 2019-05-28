@@ -2,7 +2,7 @@
 A simple browser app using webview controler in xamarin.forms.
 
 
- private async void SearchButton_Clicked(object sender, EventArgs e)
+        private async void SearchButton_Clicked(object sender, EventArgs e)
         {
             Browser.Source = "http://www.google.com/search?q=" + SearchBar.Text;
             SearchButton.Text = "Loading...";
